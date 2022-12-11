@@ -1,3 +1,7 @@
+Este script valida la entrada de numeros enteros hasta que los valores negativo
+sean aceptados
+
+~~~
 #!/bin/bash
 
 validint()
@@ -39,3 +43,4 @@ validint()
 if validint "$1" "$2" "$3" ; then
   echo "That input is a valid integer value within your constraints"
 fi
+~~~
